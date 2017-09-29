@@ -1,0 +1,8 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: $blue-3;
+    color: $white;
+}
