@@ -1,5 +1,35 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500");
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #195b7d;
   color: #fffcfa; }
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background-color: #fffcfa;
+  color: #28343b;
+  padding: 0.1rem 1.5rem; }
+  .navbar li {
+    display: inline; }
+
+.navbar-title {
+  position: absolute; }
+
+.navbar-body {
+  position: absolute;
+  right: 10px; }
+  .navbar-body li {
+    padding: 1rem; }
+
+#home {
+  background-image: url("../img/bg-image.jpg");
+  background-size: 100rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100rem; }

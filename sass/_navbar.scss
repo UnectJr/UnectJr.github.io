@@ -1,0 +1,32 @@
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 3rem;
+
+    background-color: $white;
+    color: $black;
+
+    padding: 0.1rem 1.5rem;
+    
+    
+    li {
+        display: inline;
+    }
+
+}
+
+.navbar-title {
+    position: absolute;
+}
+
+.navbar-body {
+    position: absolute;
+    right: 10px;
+
+    li {
+        padding: 1rem;
+    }
+
+}
