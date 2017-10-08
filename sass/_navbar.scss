@@ -8,11 +8,15 @@
     height: 3.5rem;
     width: 100%;
 
-    color: $black;
-    background-color: $white;
+    color: $white;
+    background-color: transparent;
 
     padding: 0.1rem 1.5rem;
     
+    .menu-icon {
+        display: none;
+        font-size: 2rem;
+    }
     
     li {
         display: inline;
@@ -21,20 +25,8 @@
 
     a {
         text-decoration: none;
-        color: $black;
+        color: $white;
         font-size: 1.3rem;
-    }
-
-
-    h1 {
-         margin-right: 2rem;
-    }
-
-}
-
-.navbar-title {
-}
-
-.navbar-body {
+    }        
 
 }
