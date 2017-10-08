@@ -4,7 +4,7 @@
   "description": "Unect website",
   "main": "main.js",
   "scripts": {
-    "gulp": "gulp"
+    "dev": "gulp"
   },
   "author": "Higor Rozan",
   "license": "ISC",
