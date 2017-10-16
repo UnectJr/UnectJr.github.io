@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -27,30 +28,66 @@ body {
 
 .navbar {
   position: fixed;
-  margin-right: 0;
-  display: flex;
-  align-items: center;
   height: 3.5rem;
   width: 100%;
-  color: #fffcfa;
-  background-color: transparent;
-  padding: 0.1rem 1.5rem; }
+  background-color: #fffcfa;
+  display: flex;
+  align-items: center;
+  z-index: 1; }
   .navbar .menu-icon {
     display: none;
     font-size: 2rem; }
   .navbar li {
     display: inline;
-    padding: 1rem; }
+    padding: 1.4rem; }
   .navbar a {
     text-decoration: none;
-    color: #fffcfa;
+    color: #28343b;
     font-size: 1.3rem; }
+  @media screen and (max-width: 420) {
+    .navbar li {
+      display: none; }
+    .navbar .menu-icon {
+      display: inline; }
+    .navbar .navbar {
+      background: #28343b; } }
 
 #showcase {
+  position: relative;
   height: 100vh;
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  z-index: 0; }
+  #showcase .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #195b7d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.90;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #showcase .content {
+    position: absolute;
+    text-align: center; }
+    #showcase .content h1 {
+      font-family: "Montserrat";
+      font-size: 7rem;
+      color: #fffcfa;
+      opacity: 1; }
+    #showcase .content h2 {
+      padding-top: 2rem; }
+  @media screen and (max-width: 420px) {
+    #showcase h1 {
+      font-size: 2rem; }
+    #showcase h2 {
+      padding: 2rem; } }
 
 #about {
   color: #28343b;
