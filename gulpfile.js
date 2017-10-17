@@ -3,6 +3,13 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var bundle = require('gulp-bundle-assets');
+
+gulp.task('bundle', function() {
+    return gulp.src('./bundle.config.js')
+      .pipe(bundle())
+      .pipe(gulp.dest('./vendor'));
+});
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {

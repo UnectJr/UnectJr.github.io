@@ -7,3 +7,9 @@
 The dev server has sass files watch
 
         npm run dev
+
+### Run bundle task
+Create vendor directory with all css and js depences
+        
+        npm run bundle
+

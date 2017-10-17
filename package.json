@@ -4,14 +4,23 @@
   "description": "Unect website",
   "main": "main.js",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "bundle": "gulp bundle" 
   },
   "author": "Higor Rozan",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-bundle-assets": "^2.29.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "fullpage.js": "^2.9.4",
+    "jquery": "^3.2.1",
+    "particles.js": "^2.0.0"
+  }
 }

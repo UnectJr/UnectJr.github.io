@@ -30,7 +30,7 @@ body {
   position: fixed;
   height: 3.5rem;
   width: 100%;
-  background-color: #fffcfa;
+  background-color: transparent;
   display: flex;
   align-items: center;
   z-index: 1; }
@@ -42,8 +42,8 @@ body {
     padding: 1.4rem; }
   .navbar a {
     text-decoration: none;
-    color: #28343b;
-    font-size: 1.3rem; }
+    color: #fffcfa;
+    font-size: 1.4rem; }
   @media screen and (max-width: 420) {
     .navbar li {
       display: none; }

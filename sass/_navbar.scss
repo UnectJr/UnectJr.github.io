@@ -4,7 +4,7 @@
     height: 3.5rem;
     width: 100%;
 
-    background-color: $white;
+    background-color: transparent;
         
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@
     
     a {
         text-decoration: none;
-        color: $black;
-        font-size: 1.3rem;
+        color: $white;
+        font-size: 1.4rem;
     }
 
     @media screen and (max-width: 420){
