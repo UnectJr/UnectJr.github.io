@@ -19,37 +19,46 @@
         opacity: 0.90;
         z-index: 1;
     
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
     }
 
     .content{
         position: absolute;
         text-align: center;
+        z-index: 2;
+        width: 100%;
+        top:40vh;
 
         h1 {
-            font-family: "Montserrat";
             font-size: 7rem;
             color: $white;
-            opacity: 1;
+            text-transform: capitalize;
+            
         }
 
         h2 {
+            text-transform: uppercase;
             padding-top: 2rem;
-        }
-    }
-
-    @media screen and (max-width: 420px) {
-        h1 {
             font-size: 2rem;
         }
-
-        h2 {
-            padding: 2rem;
-        }
     }
 
+    @media screen and (max-width: 560px) {
+        .content{
+            top:40vh;
+    
+            h1 {
+                font-size: 3rem;
+            }
+    
+            h2 {
+                padding: 2rem 1rem;
+                font-size: 1rem;
+            }
+
+        }
+
+    }
 }
 #about {
     color: $black;

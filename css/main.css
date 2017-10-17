@@ -69,25 +69,29 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.90;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    z-index: 1; }
   #showcase .content {
     position: absolute;
-    text-align: center; }
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    top: 40vh; }
     #showcase .content h1 {
-      font-family: "Montserrat";
       font-size: 7rem;
       color: #fffcfa;
-      opacity: 1; }
+      text-transform: capitalize; }
     #showcase .content h2 {
-      padding-top: 2rem; }
-  @media screen and (max-width: 420px) {
-    #showcase h1 {
+      text-transform: uppercase;
+      padding-top: 2rem;
       font-size: 2rem; }
-    #showcase h2 {
-      padding: 2rem; } }
+  @media screen and (max-width: 560px) {
+    #showcase .content {
+      top: 40vh; }
+      #showcase .content h1 {
+        font-size: 3rem; }
+      #showcase .content h2 {
+        padding: 2rem 1rem;
+        font-size: 1rem; } }
 
 #about {
   color: #28343b;
