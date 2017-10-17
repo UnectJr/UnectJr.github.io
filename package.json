@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "gulp",
-    "bundle": "gulp bundle" 
+    "bundle": "gulp bundle"
   },
   "author": "Higor Rozan",
   "license": "ISC",
