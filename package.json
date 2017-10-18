@@ -19,6 +19,7 @@
     "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "fullpage.js": "^2.9.4",
     "jquery": "^3.2.1",
     "particles.js": "^2.0.0"

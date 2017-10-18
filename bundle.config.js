@@ -7,7 +7,10 @@ module.exports = {
             './node_modules/particles.js/particles.js',
             './node_modules/fullpage.js/dist/jquery.fullpage.js',            
         ],
-        styles:"./node_modules/fullpage.js/dist/jquery.fullpage.css"
+        styles:[
+            "./node_modules/fullpage.js/dist/jquery.fullpage.css",
+            "./node_modules/animate.css/animate.css"
+        ]
       }
     },
   };
