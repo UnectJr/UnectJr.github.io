@@ -52,14 +52,17 @@ body {
     .navbar .navbar {
       background: #28343b; } }
 
-#showcase {
-  position: relative;
+section {
   height: 100vh;
+  width: 100%; }
+
+.showcase {
+  position: relative;
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0; }
-  #showcase .overlay {
+  .showcase .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,30 +73,29 @@ body {
     background-size: cover;
     opacity: 0.90;
     z-index: 1; }
-  #showcase .content {
+  .showcase .content {
     position: absolute;
     text-align: center;
     z-index: 2;
     width: 100%;
     top: 40vh; }
-    #showcase .content h1 {
+    .showcase .content h1 {
       font-size: 7rem;
       color: #fffcfa;
       text-transform: capitalize; }
-    #showcase .content h2 {
+    .showcase .content h2 {
       text-transform: uppercase;
       padding-top: 2rem;
       font-size: 2rem; }
   @media screen and (max-width: 560px) {
-    #showcase .content {
+    .showcase .content {
       top: 40vh; }
-      #showcase .content h1 {
+      .showcase .content h1 {
         font-size: 3rem; }
-      #showcase .content h2 {
+      .showcase .content h2 {
         padding: 2rem 1rem;
         font-size: 1rem; } }
 
-#about {
+.about {
   color: #28343b;
-  background-color: #fffcfa;
-  height: 100vh; }
+  background-color: #fffcfa; }
