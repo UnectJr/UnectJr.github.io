@@ -1,0 +1,27 @@
+.showcase {
+  position: relative;
+  background-image: url("../img/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+
+  .overlay {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: $blue-1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+    z-index: 1;
+
+  }
+
+  .content {
+    top: 30vh;
+  }
+
+}

@@ -78,6 +78,16 @@ section {
   .content p {
     font-size: 2rem; }
 
+@media screen and (max-width: 560px) {
+  .content {
+    padding: 15vw 15vw; }
+    .content h1 {
+      font-size: 6rem; }
+    .content h2 {
+      font-size: 1.7rem; }
+  .showcase .content {
+    top: 7vh; } }
+
 .showcase {
   position: relative;
   background-image: url("../img/bg-image.jpg");
@@ -109,13 +119,3 @@ section {
 .contact {
   color: #fffcfa;
   background-color: #195b7d; }
-
-@media screen and (max-width: 560px) {
-  .content {
-    padding: 15vw 15vw; }
-    .content h1 {
-      font-size: 6rem; }
-    .content h2 {
-      font-size: 1.7rem; }
-  .showcase .content {
-    top: 7vh; } }
