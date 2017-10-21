@@ -12,12 +12,10 @@ $(document).ready(function() {
             'showcase',
             'about',
             'portfolio',
-            'footer'
+            'contact'
         ],
         verticalCentered: false,
-        loopTop: true,
         loopBottom: true,
-        paddingTop: '3.5rem',
 
         // Scrolling
         scrollingSpeed: 1300,
