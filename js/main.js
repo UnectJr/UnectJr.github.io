@@ -39,14 +39,5 @@ $(document).ready(function () {
         }
 
     });
-
-    // Menu click handler
-    $('.menu-icon').click(function() {
-        console.log('click');
-        $('.navbar')
-            .find('li').not(':first').toggle();
-        $('.content').toggle();
-    });
-
-
+    
 });
