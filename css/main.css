@@ -58,7 +58,7 @@ body {
       font-size: 3rem;
       margin-bottom: 1.5rem; }
     .content p {
-      font-size: 1.2em; } }
+      font-size: 1em; } }
 
 @media screen and (max-width: 560px) {
   .content {
@@ -110,7 +110,7 @@ body {
   color: #fffcfa;
   background-color: #fffcfa; }
   .contact .container {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -120,4 +120,7 @@ body {
       height: 200px; }
     @media screen and (max-width: 720px) {
       .contact .container img {
-        height: 80px; } }
+        height: 70px; } }
+  @media screen and (max-width: 720px) {
+    .contact .container {
+      flex-direction: column; } }

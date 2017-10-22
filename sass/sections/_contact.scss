@@ -3,7 +3,7 @@
   background-color: $white;
 
   .container {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -14,9 +14,10 @@
     img {
       height: 200px;
     }
+
     @media screen and (max-width: 720px){
       img {
-        height: 80px;
+        height: 70px;
       }
     }
 
@@ -24,7 +25,7 @@
 
   @media screen and (max-width: 720px){
     .container{
-      //flex-direction: column;
+      flex-direction: column;
     }
   }
 
