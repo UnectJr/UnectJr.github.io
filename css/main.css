@@ -1,121 +1,123 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #195b7d;
   color: #fffcfa; }
 
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px; } }
-
-@media (min-width: 992px) {
-  .container {
-    width: 970px; } }
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px; } }
-
 .navbar {
   position: fixed;
-  height: 3.5rem;
+  height: 4rem;
   width: 100%;
   background-color: transparent;
   display: flex;
   align-items: center;
   z-index: 1; }
   .navbar .menu-icon {
-    display: none;
-    font-size: 2rem; }
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    display: none; }
   .navbar li {
+    margin-left: 3rem;
     display: inline;
-    padding: 1.4rem; }
+    padding: 2rem; }
   .navbar a {
     text-decoration: none;
-    color: #fffcfa;
     font-size: 1.7rem; }
-  @media screen and (max-width: 560px) {
+  .navbar .white {
+    color: #fffcfa; }
+  .navbar .black {
+    color: #28343b; }
+  @media screen and (max-width: 720px) {
+    .navbar ul {
+      position: absolute;
+      top: 0;
+      left: 0; }
     .navbar li {
-      display: none; }
-    .navbar li .menu-icon {
+      margin-left: 0rem;
+      display: none;
+      padding: 1rem 3rem; }
+    .navbar .menu-icon {
       display: block; }
     .navbar .navbar {
-      background: #28343b; } }
-
-section {
-  height: 100vh;
-  width: 100%; }
+      height: 100vh;
+      background-color: #28343b; } }
 
 .content {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  padding: 0 15vw;
-  z-index: 2;
-  top: 20vh;
-  text-align: center; }
-  .content h1 {
-    font-size: 10rem;
-    color: #fffcfa;
-    text-transform: capitalize; }
-  .content h2 {
-    padding: 2rem;
-    font-size: 2rem; }
+  padding: 5rem; }
   .content h3 {
     text-transform: capitalize;
     font-size: 5rem;
     margin-bottom: 3rem; }
   .content p {
     font-size: 2rem; }
+  @media screen and (max-width: 560px) {
+    .content h3 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem; }
+    .content p {
+      font-size: 1.2em; } }
 
 @media screen and (max-width: 560px) {
   .content {
-    padding: 15vw 15vw; }
-    .content h1 {
-      font-size: 6rem; }
-    .content h2 {
-      font-size: 1.7rem; }
-  .showcase .content {
-    top: 7vh; } }
+    padding: 3rem; } }
 
 .showcase {
   position: relative;
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 0; }
+  z-index: 0;
+  height: 100vh;
+  width: 100%; }
   .showcase .overlay {
+    height: inherit;
+    width: inherit;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
-    width: 100%;
     background-color: #1592cc;
-    background-repeat: no-repeat;
-    background-size: cover;
     opacity: 0.70;
     z-index: 1; }
-  .showcase .content {
-    top: 30vh; }
+  .showcase .brand {
+    width: inherit;
+    position: absolute;
+    top: 32%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .showcase .brand h1 {
+      font-size: 15rem;
+      text-transform: capitalize;
+      padding: 1rem; }
+    .showcase .brand h2 {
+      padding: 1rem;
+      font-size: 1.5rem; }
+  @media screen and (max-width: 720px) {
+    .showcase .brand h1 {
+      font-size: 5rem; }
+    .showcase .brand h2 {
+      font-size: 1rem; } }
 
 .about {
   color: #fffcfa;
   background-color: #0e69b7; }
 
-.portfolio {
-  color: #28343b;
-  background-color: #fffcfa; }
-
 .contact {
   color: #fffcfa;
-  background-color: #195b7d; }
+  background-color: #fffcfa; }
+  .contact .container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .contact .container img {
+      height: 200px; }
+    @media screen and (max-width: 720px) {
+      .contact .container img {
+        height: 80px; } }

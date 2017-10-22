@@ -1,28 +1,7 @@
-section {
-  height: 100vh;
-  width: 100%;
-}
 
 .content {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  padding: 0 15vw;
-  z-index: 2;
-  top: 20vh;
 
-  text-align: center;
-
-  h1 {
-    font-size: 10rem;
-    color: $white;
-    text-transform: capitalize;
-  }
-
-  h2 {
-    padding: 2rem;
-    font-size: 2rem;
-  }
+  padding: 5rem;
 
   h3 {
     text-transform: capitalize;
@@ -34,24 +13,21 @@ section {
     font-size: 2rem;
   }
 
+  @media screen and (max-width: 560px) {
+    h3 {
+      font-size: 3rem;                
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+
 }
 
 @media screen and (max-width: 560px) {
   .content {
-    padding: 15vw 15vw;
-
-    h1 {
-      font-size: 6rem;
-    }
-
-    h2 {
-      font-size: 1.7rem;
-    }
-
+    padding: 3rem;
   }
-
-  .showcase .content {
-    top: 7vh;
-  }
-
 }
