@@ -12,7 +12,8 @@ $(document).ready(function () {
         anchors: [
             'showcase',
             'about',
-            'contact'
+            'contact',
+            'contributors'
         ],
         //verticalCentered: false,
         loopBottom: true,
