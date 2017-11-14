@@ -124,3 +124,6 @@ body {
   @media screen and (max-width: 720px) {
     .contact .container {
       flex-direction: column; } }
+
+.contributors {
+  background-color: #fffcfa; }
