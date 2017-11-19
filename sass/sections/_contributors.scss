@@ -1,9 +1,30 @@
 .contributors {
     background-color: $white;
 
-  
+    .container {
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    
+
+      img {
+        height: 200px;
+      }
+
+      @media screen and (max-width: 720px){
+        img {
+          height: 70px;
+        }
+      }
+    }
+
     @media screen and (max-width: 720px){
-      
+      .container{
+        flex-direction: column;
+      }
     }
   
   }

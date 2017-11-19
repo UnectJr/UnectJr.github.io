@@ -107,7 +107,7 @@ body {
   background-color: #0e69b7; }
 
 .contact {
-  color: #fffcfa;
+  color: black;
   background-color: #fffcfa; }
   .contact .container {
     height: 80vh;
@@ -127,3 +127,41 @@ body {
 
 .contributors {
   background-color: #fffcfa; }
+  .contributors .container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .contributors .container img {
+      height: 200px; }
+    @media screen and (max-width: 720px) {
+      .contributors .container img {
+        height: 70px; } }
+  @media screen and (max-width: 720px) {
+    .contributors .container {
+      flex-direction: column; } }
+
+.services {
+  color: #fffcfa;
+  background-color: #0e69b7; }
+  .services .container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .services .container div {
+      width: 200px;
+      height: 200px;
+      text-align: center; }
+    .services .container .material-icons {
+      font-weight: 80rem; }
+    @media screen and (max-width: 720px) {
+      .services .container img {
+        width: 70px; } }
+  @media screen and (max-width: 720px) {
+    .services .container {
+      flex-direction: column; } }

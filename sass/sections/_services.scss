@@ -1,0 +1,39 @@
+.services {
+    color: $white;
+    background-color: $blue-2;
+
+    .container {
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        div {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+
+        .material-icons {
+            font-weight: 80rem;
+        }
+
+        @media screen and (max-width: 720px){
+        img {
+            width: 70px;
+        }
+        }
+
+    }
+
+    @media screen and (max-width: 720px){
+        .container{
+        flex-direction: column;
+        }
+    }
+
+}
+  

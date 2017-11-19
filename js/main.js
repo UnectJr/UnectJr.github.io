@@ -12,8 +12,9 @@ $(document).ready(function () {
         anchors: [
             'showcase',
             'about',
-            'contact',
-            'contributors'
+            'services',
+            'contributors',
+            'contact'
         ],
         //verticalCentered: false,
         loopBottom: true,
@@ -28,13 +29,13 @@ $(document).ready(function () {
 
         // Change portfolio font color
         afterLoad: function(anchorLink, index){
-            if (index === 3){
+            if (index === 4 || index === 5){
                 $('.navbar').find('a , span').addClass('black');
             }
         },
 
         onLeave: function(index, nextIndex, direction){
-            if (index === 3){
+            if (index === 4 || index === 5){
                 $('.navbar').find('a , span').removeClass('black').addClass('white');
             }
         }
