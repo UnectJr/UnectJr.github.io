@@ -1,83 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Unect Jr</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    <!-- import fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-    <!-- import css -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="vendor/vendor-b71b30560f.css">
+  <title> Unect Jr. </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
 
 <body>
+  <nav id="navbar">
+    <div class="container">
+      <button class="navbar-toggler" type="button" id="btn-collapse"><span class="navbar-toggler-icon"></span></button>
+      <a href="#home" class="navbar-brand"><img src="./img/logo/small-logo.png" alt="Unect Jr. logo"></a>
+      <div id="collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">Sobre</a></li>
+          <li class="nav-item"><a href="#products">Soluções</a></li>
+          <li class="nav-item"><a href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a href="#team">Equipe</a></li>
+          <li class="nav-item"><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="home" class="fp-section showcase" data-achor="showcase-section">
+    <div class="overlay"></div>
+    <div class="brand">
+      <h1> Unect Jr. </h1>
+      <h2 class="animated fadeInUp">Conectando pessoas e soluções</h2>
+    </div>
+  </section>
 
-<!--<nav class="navbar">-->
-    <!--<ul id="menu">-->
-        <!--<li class="menu-icon">-->
-            <!--<span class="white">&#9776;</span>-->
-        <!--</li>-->
-        <!--<li data-menuanchor="showcase">-->
-            <!--<a href="#showcase" class="white">Home</a>-->
-        <!--</li>-->
-        <!--<li data-menuanchor="about">-->
-            <!--<a href="#about" class="white">Sobre</a>-->
-        <!--</li>-->
-        <!--<li data-menuanchor="contact">-->
-            <!--<a href="#contact" class="white">Contato</a>-->
-        <!--</li>-->
-    <!--</ul>-->
-<!--</nav>-->
+  <section id="about">
+    <div class="container">
+      <div class="flex-item">
+        <h2> SOBRE </h2>
+        <p>Nós somos uma Empresa Júnior do ramo de TI que abrange os cursos de Engenharia de Computação, Engenharia de Software e Análise
+        e Desenvolvimento de Sistemas da UTFPR. Procuramos sempre soluções inovadoras e criativas para resolver os problemas e satisfazer
+        as necessidades de nossos clientes. Por sermos uma Empresa Júnior, trabalhamos sempre com preços abaixo dos encontrados no
+        mercado, porém sempre mantemos um alto padrão de qualidade em nossos serviços.</p>
+      </div>
+    </div>
+  </section>
 
-<div id="fullpage">
+  <section id="products">
+    <h2> Conheça nossas soluções </h2>
+    <div class="container">
+      <div class="flex-item">
+        <img src="img/services/mobile.svg">
+        <h3> Aplicativos </h3>
+      </div>
+      <div class="flex-item">
+        <img src="img/services/web.svg">
+        <h3> Websites </h3>
+      </div>
+      <div class="flex-item">
+        <img src="img/services/hardware.svg">
+        <h3> Hardware </h3>
+      </div>
+      
+    </div>
+  </section>
 
-    <section class="fp-section showcase" data-achor="showcase-section">
-        <div class="overlay" id="particles-js"></div>
-        <div class="brand">
-            <h1 class="animated fadeInDown">unect jr</h1>
-            <h2 class="animated fadeInUp">Conectando pessoas e soluções</h2>
+  <section id="portfolio">
+    <h2> Portfólio </h2>
+
+    <!-- First row -->
+    <div class="container">
+      <div class="flex-item">
+        <button id="myBtn1"><img src="img/portfolio/ecodelta.png" target="_Blank" alt="Ecodelta"></button>
+      </div>
+ 
+      <div class="flex-item">
+        <button id="myBtn2"><img src="img/portfolio/nina.png" target="_Blank" alt="Nina"></button>
+      </div>
+   
+    </div>
+
+    <!-- Second row
+    <div class="container">
+      <div class="flex-item">
+        <a href="#">
+          <img src="img/ecodelta.png" alt="img">
+        </a>
+      </div>
+      <div class="flex-item">
+        <a href="modal"><img src="img/ecodelta.png" alt="img"></a>
+      </div>
+    </div>
+  -->
+  </section>
+
+  <section id="team">
+    <h2> Nossa equipe </h2>
+    <div class="container">
+      <div class="flex-item">
+        <img src="img/team.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2> contato </h2>
+    <div class="container">
+      <form>
+        <input type="name" name="name" placeholder="NOME">
+        <input type="email" id="email" placeholder="EMAIL">
+        <textarea rows="6" id="message" placeholder="DIGITE SUA MENSAGEM"></textarea>
+      </form>
+    </div>
+    <button name="button" type="input"> Enviar </button>
+  </section>
+
+  <section id="partners">
+    <div class="container">
+      <div class="flex-item">
+        <img src="img/partners/parceiro-dacomp.png">
+  
+      </div>
+      <div class="flex-item">
+        <img src="img/partners/parceiro-ecodelta.png">
+  
+      </div>
+      <div class="flex-item">
+        <img src="img/partners/parceiro-solucaut.png">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <img src="img/logo/small-logo.svg">
+  </footer>
+
+
+  <div id="myModal1" class="modal">
+    <!-- CONTEÚDO DO MODAL 1 -->
+    <div class="modal-content">
+      <span class="close close1">&times;</span>
+      <div>
+        <h2>Site Ecodelta</h2>
+        <!--<p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>-->
+        <div class="modal-img">
+          <a href="http://ecodelta.cp.utfpr.edu.br/" target="_Blank"><img src="img/portfolio/ecodelta.png" alt="Site Ecodelta"></a>
         </div>
-    </section>
+        <p>A Ecodelta é um projeto de extensão da UTFPR Câmpus Cornélio Procópio, o objetivo do projeto é desenvolver um carro de eficiência
+        energética, participando de competições como a Shell Eco Marathon. Nós da Unect Jr. desenvolvemos um site para divulgar o
+        projeto e atrair potenciais patrocinadores.</p>
+        <ul class="list-inline">
+          <li>Data: Fevereiro 2018</li>
+          <li>Cliente: Ecodelta UTFPR-CP</li>
+          <li>Categoria: Site</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-    <section class="fp-section about" data-achor="about-section">
-        <div class="content">
-            <h3>sobre</h3>
-            <p>
-                Nós somos uma Empresa Júnior do ramo de TI que abrange os cursos de
-                Engenharia de Computação, Engenharia de Software e Análise e Desenvolvimento de Sistemas
-                da UTFPR.
-            </p>
-            <br>
-            <p>
-                Procuramos sempre soluções inovadoras e criativas para resolver os problemas 
-                e satisfazer as necessidades de nossos clientes.
-            </p>
-            <br>
-            <p>
-                Por sermos uma Empresa Júnior, trabalhamos sempre com preços abaixo dos encontrados no mercado,
-                porém sempre mantemos um alto padrão de qualidade em nossos serviços.
-            </p>
+  <div id="myModal2" class="modal">
+    <div class="modal-content">
+      <span class="close close2">&times;</span>
+      <div>
+        <h2> Nina </h2>
+        <!--
+        <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+        -->
+        <div class="modal-img">
+          <a href="https://nina-unect.herokuapp.com/index.html"><img src="img/portfolio/nina.png" alt="Aplicação web - Nina"></a>
         </div>
-    </section>
-    
-    <section class="fp-section contact" data-achor="footer-contact">
-        <div class="container">
-            <a href="https://www.instagram.com/unectjr/"><img src="img/instagram.svg" alt="Instagram"></a>
-            <a href="https://www.facebook.com/UnectJr/"><img src="img/facebook.svg" alt="Facebook"></a>
-            <a href="https://www.linkedin.com/company/10950099/"><img src="img/linkedin.svg" alt="Linkedin"></a>
-            <a href="https://github.com/UnectJr/"><img src="img/github-logo.svg" alt="Github"></a>
-        </div>
-    </section>
+        <p>Aplicação web para marcar e gerenciar permanências na Unect Jr.</p>
+        <ul class="list-inline">
+          <li>Data: Fevereiro 2018 </li>
+          <li>Category: Aplicação Web </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-</div>
 
-<script src="vendor/vendor-981727930d.js"></script>
-<script src="js/main.js"></script>
-
+  <script src="./js/init.js"></script>
 </body>
-
-</html>
