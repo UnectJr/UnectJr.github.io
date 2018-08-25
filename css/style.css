@@ -1,6 +1,7 @@
 /* CSS MINIMAL RESET */
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -61,7 +62,7 @@ img {
 
 .flex-item {
   flex: 1;
-  margin: 0 10px;
+  margin: 0 10px; 
 }
 
 @media (max-width: 739px) {
@@ -117,7 +118,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color:  rgb(14, 105, 183);
+    background-color: rgb(14, 105, 183);
     opacity: 0.70;
     z-index: 1; }
   .showcase .brand {
@@ -353,8 +354,13 @@ section {
 }
 
 /* Portfolio */
+#portfolio {
+  background-color: rgb(248, 249, 250);
+}
+
 #portfolio .container {
   max-width: 940px;
+  justify-content: space-between;
 }
 
 @media (max-width: 739px) {
@@ -371,12 +377,12 @@ section {
 }
 
 #portfolio .flex-item {
-  margin: 0;
-  /*background: #000;*/
+  /* margin: 0; */
+  background: #fff;
 }
 
 #portfolio h3 {
-  margin-top: 10px;
+  padding: 5px 0;
   text-align: center;
   color: rgb(14, 105, 183);
 }
@@ -396,7 +402,6 @@ section {
 .modal-content {
   text-align: center;
 }
-
 .modal-content p.item-intro {
   font-size: 16px;
   font-style: italic;
@@ -477,8 +482,9 @@ section {
 }
 
 #team img {
-  border-radius: 12px;
-}
+  /* border-radius: 12px; */
+  padding: 0 10px;
+} 
 
 /* Contact */
 #contact {
