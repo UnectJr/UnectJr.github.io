@@ -554,18 +554,22 @@ section {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   padding-top: 5px;
   padding-left: 5px;
+  font-family: 'Fira Mono', monospace;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   padding-top: 5px;
   padding-left: 5px;
+  font-family: 'Fira Mono', monospace;
 }
 :-ms-input-placeholder { /* IE 10+ */
   padding-top: 5px;
   padding-left: 5px;
+  font-family: 'Fira Mono', monospace;
 }
 :-moz-placeholder { /* Firefox 18- */
   padding-top: 5px;
   padding-left: 5px;
+  font-family: 'Fira Mono', monospace;
 }
 
 /* Footer */
