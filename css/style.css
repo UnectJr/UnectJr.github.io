@@ -365,6 +365,10 @@ section {
   #partners .flex-item {
     margin-bottom: 20px;
   }
+
+  #partners .flex-item img {
+    max-width: 200px;
+  }
 }
 
 /* Portfolio */
