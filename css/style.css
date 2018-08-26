@@ -493,7 +493,7 @@ section {
 }
 
 #team img {
-  /* border-radius: 12px; */
+  border-radius: 2%; 
   padding: 0 10px;
 } 
 
