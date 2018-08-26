@@ -506,7 +506,7 @@ section {
 }
 
 /* Para alterar o tamanho mude o font-size do input, text-area */
-#contact input {
+#contact .input {
   margin-bottom: 20px;
   border: none;
   border-bottom: 2px solid rgb(14, 105, 183);
@@ -522,7 +522,7 @@ section {
   margin-bottom: 20px;
 }
 
-#contact button {
+#contact button, #submit {
   padding: 10px 40px;
   border: 3px solid rgb(14, 105, 183);
   font-size: 20px;
@@ -532,7 +532,7 @@ section {
   border-radius: 3px;
 }
 
-#contact button:hover {
+#contact button:hover, #submit:hover  {
   border: 3px solid rgb(14, 105, 183);
   background-color: #f8f8f8;
   color: rgb(14, 105, 183);
