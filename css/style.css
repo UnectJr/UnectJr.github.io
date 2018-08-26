@@ -405,9 +405,9 @@ section {
 }
 
 @media (max-width: 739px) {
-  #portfolio .flex-item {
-    margin: 0px 50px 20px 50px;
-  }
+  #portfolio .flex-item { 
+    margin: 0px 30px 20px 30px;
+  } 
 
   #portfolio h3 {
     display: none;
@@ -486,7 +486,6 @@ section {
 }
 
 /* Team */
-
 #team {
   background-color: #0061d5;
 } 
