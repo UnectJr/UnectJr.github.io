@@ -78,7 +78,7 @@ img {
 
 section {
   padding: 60px 0;
-  background-color: #fff;
+  background-color:  #0061d5;
 }
 
 .flex-item img {
@@ -118,7 +118,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(14, 105, 183);
+    background-color: #0061d5;
     opacity: 0.70;
     z-index: 1; }
   .showcase .brand {
@@ -137,10 +137,10 @@ section {
     .showcase .brand h2 {
       color: #f8f8f8;
       padding: 1rem;
-      font-size: 1.5rem; }
+      font-size: 2rem; }
   @media screen and (max-width: 720px) {
     .showcase .brand h1 {
-      font-size: 5rem; }
+      font-size: 4rem; }
     .showcase .brand h2 {
       font-size: 1rem; } }
 
@@ -157,7 +157,8 @@ section {
 }
 
 #navbar.out-top {
-  background-color: rgb(14, 105, 183);
+  /* background-color: rgb(14, 105, 183); */
+  background-color: #0061d5;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
@@ -215,7 +216,7 @@ section {
 
 .nav-item a {
   display: block;
-  color: #fff;
+  color:  #0061d5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -228,7 +229,7 @@ section {
 
 .out-top .nav-item a:hover{
   background-color: rgba(3, 3, 3, .4);
-  color: #fff;
+  color:  #0061d5;
 }
 
 .navbar-brand {
@@ -270,7 +271,7 @@ section {
     width: 150px;
     height: 100vh;
     left: -150px;
-    background-color: #fff;
+    background-color:  #0061d5;
     transition: left .8s ease;
   }
 
@@ -291,10 +292,13 @@ section {
   .nav-item a {
     color: #000;
   }
-  
 }
 
 /* About */
+#about {
+  background-color: #f8f8f9;
+}
+
 #about .flex-item {
   flex: none;
   max-width: 70%;
@@ -309,7 +313,7 @@ section {
 
 #about h2 {
   margin-bottom: 10px;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
   text-transform: uppercase;
 }
 
@@ -320,7 +324,7 @@ section {
 /* Products */
 #products {
   text-align: center;
-  background-color:  rgb(14, 105, 183);
+  background-color: #fff;
 }
 
 #products .flex-item {
@@ -328,13 +332,17 @@ section {
 }
 
 #products .flex-item img {
-  max-width: 75%;
+  max-width: 70%;
 }
 
 #products h2 {
+  color: #0061d5;
   margin-bottom: 40px;
-  color: #f8f8f8;
   text-transform: uppercase;
+}
+
+#products h3 {
+  color: #0061d5;
 }
 
 @media (max-width: 739px) {
@@ -346,21 +354,11 @@ section {
 /* Partners */
 #partners {
   padding: 20px 0;
-  background-color: #ECF3F7;
+  background-color: rgb(220, 230, 237);
 }
 
 #partners .flex-item {
   align-self: center;
-}
-
-/* Portfolio */
-#portfolio {
-  background-color: rgb(248, 249, 250);
-}
-
-#portfolio .container {
-  max-width: 940px;
-  justify-content: space-between;
 }
 
 @media (max-width: 739px) {
@@ -369,10 +367,20 @@ section {
   }
 }
 
+/* Portfolio */
+#portfolio {
+  background-color: rgb(220, 230, 237); 
+} 
+
+#portfolio .container {
+  max-width: 940px;
+  justify-content: space-between;
+}
+
 #portfolio h2 {
   margin-bottom: 40px;
   text-align: center;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
   text-transform: uppercase;
 }
 
@@ -384,7 +392,7 @@ section {
 #portfolio h3 {
   padding: 10px 0;
   text-align: center;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
   font-size: 22px;
 }
 
@@ -396,10 +404,13 @@ section {
   #portfolio .flex-item {
     margin: 0px 50px 20px 50px;
   }
+
+  #portfolio h3 {
+    display: none;
+  }
 }
 
 /* MODAL */
-
 .modal-content {
   text-align: center;
 }
@@ -412,7 +423,7 @@ section {
 .modal-content ul.list-inline {
   margin-top: 30px;
   margin-bottom: 30px;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
 }
 
 .modal-content img {
@@ -451,7 +462,7 @@ section {
 }
 
 .modal-content h2 {
-  color: rgb(14, 105, 183);
+  color: #0061d5;
   margin-bottom: 30px;
 }
 
@@ -471,9 +482,10 @@ section {
 }
 
 /* Team */
+
 #team {
-  background-color: rgb(14, 105, 183);
-}
+  background-color: #0061d5;
+} 
 
 #team h2 {
   text-align: center;
@@ -490,16 +502,13 @@ section {
 /* Contact */
 #contact {
   text-align: center;
-  background-color: #f8f8f8;
-  /*
-  background: url('../img/bg-image.jpg') no-repeat;
-  background-size: cover;*/
+  background-color: rgb(249, 249, 249);
 }
 
 #contact h2 {
   margin-bottom: 40px;
   text-transform: uppercase;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
 }
 
 #contact .container {
@@ -510,13 +519,13 @@ section {
 #contact .input {
   margin-bottom: 20px;
   border: none;
-  border-bottom: 2px solid rgb(14, 105, 183);
+  border-bottom: 2px solid #0061d5;
   width: 100%;
   font-size: 20px;
 }
 
 #contact textarea {
-  border: 2px solid rgb(14, 105, 183);
+  border: 2px solid #0061d5;
   border-radius: 3px;
   width: 100%;
   font-size: 20px;
@@ -525,18 +534,18 @@ section {
 
 #submit {
   padding: 10px 40px;
-  border: 3px solid rgb(14, 105, 183);
+  border: 3px solid #0061d5;
   font-size: 20px;
   text-transform: uppercase;
-  background-color:  rgb(14, 105, 183);
+  background-color:  #0061d5;
   color: #f8f8f8;
   border-radius: 3px;
 }
 
 #submit:hover  {
-  border: 3px solid rgb(14, 105, 183);
+  border: 3px solid #0061d5;
   background-color: #f8f8f8;
-  color: rgb(14, 105, 183);
+  color: #0061d5;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -558,7 +567,7 @@ section {
 
 /* Footer */
 footer {
-  background-color:  rgb(14, 105, 183);
+  background-color: #0061d5;
 }
 
 footer img {
@@ -567,10 +576,10 @@ footer img {
 }
 
 @media screen and (max-width: 700px){
-  .box{
+  .box {
     width: 70%;
   }
-  .popup{
+  .popup {
     width: 70%;
   }
 }
@@ -579,8 +588,8 @@ footer img {
 /* Google Material Design */
 /* https://material.io/design/typography/#type-scale */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  /* font-weight: bold; */
+  font-family: 'Fira Mono', monospace;
 }
 
 html {
@@ -590,11 +599,11 @@ html {
 
 p {
   line-height: 1.4em;
-  color: gray;
+  color: #72848e;
 }
 
 p, ul, ol {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fira Mono', monospace;
 }
 
 html {
