@@ -78,7 +78,7 @@ img {
 
 section {
   padding: 60px 0;
-  background-color:  #0061d5;
+  background-color:  rgb(76, 140, 201);
 }
 
 .flex-item img {
@@ -118,7 +118,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #0061d5;
+    background-color: rgb(76, 140, 201);
     opacity: 0.70;
     z-index: 1; }
   .showcase .brand {
@@ -157,8 +157,8 @@ section {
 }
 
 #navbar.out-top {
-  /* background-color: rgb(14, 105, 183); */
-  background-color: #0061d5;
+  /* background-color: rgb(76, 140, 201); */
+  background-color: rgb(76, 140, 201);
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
@@ -266,7 +266,7 @@ section {
     width: 150px;
     height: 100vh;
     left: -150px;
-    background-color:  #0061d5;
+    background-color:  rgb(76, 140, 201);
     transition: left .8s ease;
   }
 
@@ -308,7 +308,7 @@ section {
 
 #about h2 {
   margin-bottom: 10px;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
   text-transform: uppercase;
 }
 
@@ -331,13 +331,13 @@ section {
 }
 
 #products h2 {
-  color: #0061d5;
+  color: rgb(76, 140, 201);
   margin-bottom: 40px;
   text-transform: uppercase;
 }
 
 #products h3 {
-  color: #0061d5;
+  color: rgb(76, 140, 201);
 }
 
 @media (max-width: 739px) {
@@ -364,6 +364,10 @@ section {
   #partners .flex-item img {
     max-width: 200px;
   }
+
+  #partners .container .flex-item:last-child {
+    margin-top: 10px;
+  }
 }
 
 /* Portfolio */
@@ -379,7 +383,7 @@ section {
 #portfolio h2 {
   margin-bottom: 40px;
   text-align: center;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
   text-transform: uppercase;
 }
 
@@ -391,7 +395,7 @@ section {
 #portfolio h3 {
   padding: 10px 0;
   text-align: center;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
   font-size: 22px;
 }
 
@@ -422,7 +426,7 @@ section {
 .modal-content ul.list-inline {
   margin-top: 30px;
   margin-bottom: 30px;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
 }
 
 .modal-content img {
@@ -461,7 +465,7 @@ section {
 }
 
 .modal-content h2 {
-  color: #0061d5;
+  color: rgb(76, 140, 201);
   margin-bottom: 30px;
 }
 
@@ -482,7 +486,7 @@ section {
 
 /* Team */
 #team {
-  background-color: #0061d5;
+  background-color: rgb(76, 140, 201);
 } 
 
 #team h2 {
@@ -506,24 +510,25 @@ section {
 #contact h2 {
   margin-bottom: 40px;
   text-transform: uppercase;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
 }
 
 #contact .container {
   justify-content: center;
+  max-width: 600px;
 }
 
 /* Para alterar o tamanho mude o font-size do input, text-area */
 #contact .input {
   margin-bottom: 20px;
   border: none;
-  border-bottom: 2px solid #0061d5;
+  border-bottom: 2px solid rgb(76, 140, 201);
   width: 100%;
   font-size: 20px;
 }
 
 #contact textarea {
-  border: 2px solid #0061d5;
+  border: 2px solid rgb(76, 140, 201);
   border-radius: 3px;
   width: 100%;
   font-size: 20px;
@@ -532,44 +537,44 @@ section {
 
 #submit {
   padding: 10px 40px;
-  border: 3px solid #0061d5;
+  border: 3px solid rgb(76, 140, 201);
   font-size: 20px;
   text-transform: uppercase;
-  background-color:  #0061d5;
+  background-color:  rgb(76, 140, 201);
   color: #f8f8f8;
   border-radius: 3px;
 }
 
 #submit:hover  {
-  border: 3px solid #0061d5;
+  border: 3px solid rgb(76, 140, 201);
   background-color: #f8f8f8;
-  color: #0061d5;
+  color: rgb(76, 140, 201);
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   padding-top: 5px;
   padding-left: 5px;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   padding-top: 5px;
   padding-left: 5px;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 :-ms-input-placeholder { /* IE 10+ */
   padding-top: 5px;
   padding-left: 5px;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 :-moz-placeholder { /* Firefox 18- */
   padding-top: 5px;
   padding-left: 5px;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Footer */
 footer {
-  background-color: #0061d5;
+  background-color: rgb(76, 140, 201);
 }
 
 footer img {
@@ -590,8 +595,8 @@ footer img {
 /* Google Material Design */
 /* https://material.io/design/typography/#type-scale */
 h1, h2, h3, h4, h5, h6 {
-  /* font-weight: bold; */
-  font-family: 'Fira Mono', monospace;
+  /*font-weight: bold;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -605,7 +610,7 @@ p {
 }
 
 p, ul, ol {
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
