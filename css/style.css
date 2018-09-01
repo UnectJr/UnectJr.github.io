@@ -1,7 +1,7 @@
 /* CSS MINIMAL RESET */
 * {
   box-sizing: border-box;
-  /* border: 1px solid red;  */
+  /* border: 1px solid red;   */
 }
 
 html {
@@ -132,7 +132,7 @@ section {
     .showcase .brand h1 {
       color: #f8f8f8;
       font-size: 8rem;
-      text-transform: capitalize;
+      text-transform: uppercase;
       padding: 1rem; }
     .showcase .brand h2 {
       color: #f8f8f8;
@@ -348,8 +348,14 @@ section {
 
 /* Partners */
 #partners {
-  padding: 20px 0;
   background-color: rgb(220, 230, 237);
+  padding: 20px 0;
+}
+
+#partners h2 {
+  text-align: center;
+  color: #0061d5;
+  margin-bottom: 20px;
 }
 
 #partners .flex-item {
@@ -485,6 +491,10 @@ section {
   background-color: #0061d5;
 } 
 
+#team .container {
+  max-width: 800px;
+}
+
 #team h2 {
   text-align: center;
   margin-bottom: 40px;
@@ -493,7 +503,7 @@ section {
 }
 
 #team img {
-  border-radius: 2%; 
+  /* border-radius: 13px;   */
   padding: 0 10px;
 } 
 
@@ -501,6 +511,10 @@ section {
 #contact {
   text-align: center;
   background-color: rgb(249, 249, 249);
+}
+
+#contact .container {
+  max-width: 720px;
 }
 
 #contact h2 {
