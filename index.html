@@ -7,9 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   <!-- favicon -->
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
@@ -34,7 +35,7 @@
   <section id="home" class="fp-section showcase" data-achor="showcase-section">
     <div class="overlay"></div>
     <div class="brand">
-      <h1> Unect Jr. </h1>
+      <h1 class="animated fadeInUp"> Unect Jr. </h1>
       <h2 class="animated fadeInUp">Conectando pessoas e soluções</h2>
     </div>
   </section>
@@ -54,15 +55,15 @@
   <section id="products">
     <h2> Conheça nossas soluções </h2>
     <div class="container">
-      <div class="flex-item">
+      <div class="flex-item wow animated bounceInLeft">
         <img src="img/services/mobile.svg">
         <h3> Aplicativos </h3>
       </div>
-      <div class="flex-item">
+      <div class="flex-item wow animated bounceInLeft"">
         <img src="img/services/web.svg">
         <h3> Websites </h3>
       </div>
-      <div class="flex-item">
+      <div class="flex-item wow animated bounceInLeft"">
         <img src="img/services/hardware.svg">
         <h3> Hardware </h3>
       </div>
@@ -103,7 +104,7 @@
   <section id="team">
     <h2> Nossa equipe </h2>
     <div class="container">
-      <div class="flex-item">
+      <div class="flex-item wow fadeIn">
         <img src="img/team.jpg">
       </div>
     </div>
@@ -123,7 +124,7 @@
   </section>
 
   <section id="partners">
-    <div class="container">
+    <div class="container wow fadeIn">
       <div class="flex-item">
         <a href="http://dacomp.com.br/" target="_Blank"><img src="img/partners/parceiro-dacomp.png"></a>
       </div>
@@ -181,6 +182,9 @@
       </div>
     </div>
   </div>
-
-  <script src="./js/init.js"></script>
+  <script src="js/WOW.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
