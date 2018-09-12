@@ -381,6 +381,7 @@ section {
 /* Portfolio */
 #portfolio {
   background-color: rgb(220, 230, 237); 
+  padding: 60px 0 40px 0;
 } 
 
 #portfolio .container {
@@ -398,6 +399,7 @@ section {
 #portfolio .flex-item {
   /* margin: 0; */
   background: #fff;
+  margin-bottom: 20px;
 }
 
 #portfolio h3 {
